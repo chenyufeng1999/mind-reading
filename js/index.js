@@ -28,7 +28,7 @@
         dictionaryDOM.innerHTML=''
         //随机生成一个随机数来获取最终结果图片
         var num=getRandom(totalNum)
-        resultImgDOM.src=`./images/values/${num}.png`
+        resultImgDOM.src=`/images/values/${num}.png`
         //生成元素
         for(var i=0;i<100;i++){
             //是9的倍数的情况
